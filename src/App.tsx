@@ -62,7 +62,7 @@ function App() {
   }, [])
 
   return <div className="window">
-    <video src={Video} autoPlay loop></video>
+    <video src={Video} autoPlay muted loop></video>
   <div className="container">
       <div className="statusGame">
         {isWinner && 'Winner - Refresh to try again!'}
