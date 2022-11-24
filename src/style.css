@@ -1,0 +1,53 @@
+ * {
+    padding: 0;
+    margin: 0;
+} 
+
+.window {
+    box-sizing: border-box;
+    height: auto;
+    align-content: center;
+}
+
+
+
+.window video {
+    position: absolute;
+    height: 100vh;
+    z-index: -1;
+
+
+    
+
+}
+
+.container {
+    max-width: 800px;
+    height: auto;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.56);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 auto;
+    padding: 2rem;
+    align-items: center;
+    
+    
+}
+
+.statusGame { 
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family:monospace;
+    text-shadow: 4px;
+    letter-spacing: 2px;
+}
+
